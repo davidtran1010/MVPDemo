@@ -1,6 +1,6 @@
 package com.example.davidtran.mvpdemo.view;
 
-import com.example.davidtran.mvpdemo.model.entity.Demo;
+import com.example.davidtran.mvpdemo.model.entity.Student;
 
 import java.util.List;
 
@@ -9,6 +9,8 @@ import java.util.List;
  */
 
 public interface MainView {
-    void displayMain(List<Demo> listDemo);
+    void displayMain(List<Student> listStudent);
+    void displayLoadInfo(String message);
+
 }
 
